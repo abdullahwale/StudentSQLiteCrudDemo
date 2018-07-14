@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edtFname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter First Name"/>
+    <EditText
+        android:id="@+id/edtLname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter Last Name"/>
+    <Button
+        android:onClick="Click_Mthod"
+        android:id="@+id/btnAddStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student Detail"/>
+    <Button
+        android:onClick="Click_Mthod"
+        android:id="@+id/btnDeleteStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Student Detail"/>
+    <Button
+        android:onClick="Click_Mthod"
+        android:id="@+id/btnUpdateStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Student Detail"/>
+    <Button
+        android:onClick="Click_Mthod"
+        android:id="@+id/btnListStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display List of Student Detail"/>
+    <TextView
+    android:id="@+id/displayList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
